@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Laura Moon</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&family=Prompt&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- bootstrap navigator -->
+  <nav class="navbar fixed-top navbar-expand-md">
+    <a class="navbar-brand" href="#"><img src='favicon.ico' /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">Menu</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#top">Top</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#findme">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- heading -->
+  <div class="top-container row">
+    <div class="col-lg-4 col-sm-12 container">
+        <canvas id="left-canvas" height='153px'>
+        </canvas>
+    </div>
+    <div class='col-lg-4 container'>
+        <h1>Laura Moon</h1>
+        <h4>I create and explore with code and data</h4>
+    </div>
+
+    <div class="col-lg-4 col-sm-12 container">
+        <canvas  id="right-canvas" height='153px'>
+        </canvas>
+    </div>
+  </div>
+
+<!-- Projects -->
+  <div class="projects container" id='projects'>
+    <hr />
+    <h2>Featured Projects</h2>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Tic Tac Toe</h3>
+          </div>
+          <div class="card-body">
+            <img class='project-img' src="images/tictactoe.PNG" />
+            <ul class="list-unstyled mt-3">
+              <li>Javascript with JQuery</li>
+              <li>Game logic</li>
+              <li>3 difficulty levels</li>
+              <li><a href="https://github.com/lauramoon/TicTacToe-javascript">Github repo</a></li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-lg btn-block btn-primary"
+            href="https://lauramoon.github.io/TicTacToe-javascript/" role="button">Try it!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Language Maps</h3>
+          </div>
+          <div class="card-body">
+            <img class='project-img' src="images/Illinoismap.PNG" />
+            <ul class="list-unstyled mt-3">
+              <li>Leaflet.js</li>
+              <li>U.S. and several states</li>
+              <li>Census data</li>
+              <li><a href="https://github.com/lauramoon/language_map">Github repo</a></li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a role="button" class="btn btn-lg btn-block btn-primary"
+            href="https://lauramoon.github.io/language_map/">Explore maps</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Chutes and Ladders</h3>
+          </div>
+          <div class="card-body">
+            <img class='project-img' src="images/Figure_1.png" />
+            <ul class="list-unstyled mt-3">
+              <li>Thousands of game simulations</li>
+              <li>Python code</li>
+              <li>Graphs of data</li>
+              <li><a href="https://github.com/lauramoon/ChutesNLadders">Github repo</a></li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a role="button" class="btn btn-lg btn-block btn-primary"
+            href="https://github.com/lauramoon/ChutesNLadders/blob/master/README.md">See graphs</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Sudoku Solver</h3>
+          </div>
+          <div class="card-body">
+            <img class='project-img' src="images/sudoku.png" />
+            <ul class="list-unstyled mt-3">
+              <li>Python command line</li>
+              <li>Game logic</li>
+              <li>Solves sudoku puzzles</li>
+              <li>Django Web app under construction</li>
+              <!-- <li><a href="https://github.com/lauramoon/SudokuSolver">Github repo</a></li> -->
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a role="button" class="btn btn-lg btn-block btn-primary"
+            href="https://github.com/lauramoon/SudokuSolver">Check out the code</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Relaxing Animation</h3>
+          </div>
+          <div class="card-body">
+            <img class='project-img' src="images/animation.png" />
+            <ul class="list-unstyled mt-3">
+              <li>Javascript line animation</li>
+              <li>See heading of this webpage</li>
+              <li>Separate page under construction</li>
+              <li>(Future Github link)</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a role="button" class="btn btn-lg btn-block btn-primary disabled"
+            href="">Full page Coming Soon</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h3 class="my-0 font-weight-normal">Civilization VI Achievement Graphs</h3>
+          </div>
+          <div class="card-body">
+            <img class='project-img' src="images/construction.svg" />
+            <ul class="list-unstyled mt-3">
+              <li>Data extraction: webpage and API</li>
+              <li>PostgresSQL database</li>
+              <li>Will include interactive graphs</li>
+            </ul>
+          </div>
+          <div class="card-footer">
+            <a role="button" class="btn btn-lg btn-block btn-primary disabled"
+            href="">Under Construction</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skills" id='skills'>
+    <hr />
+    <h2>Skills and Education</h2>
+    <div class="skill-row">
+      <img class="coding-img" src="images/coding.svg" alt="coding image">
+      <h3>Coding Languages</h3>
+      <p>Python and JavaScript.
+        <br /> Some experience with R, Java, and C++.</p>
+    </div>
+    <div class="skill-row">
+      <img class="browser-img" src="images/browser.svg" alt="browser image">
+      <h3>Web Development</h3>
+      <p>Static websites with JavaScript, including JQuery, Leaflet, and Bootstrap frameworks.
+        <br /> NodeJS with MongoDB, Django with SQLite. <br /> Hosting on Heroku.</p>
+    </div>
+    <div class="skill-row">
+      <img class="flask-img" src="images/flask.svg" alt="flask image">
+      <h3>Data Science</h3>
+      <p>Regression, classification, and clustering models in Python and R<br />
+        Python pandas<br />
+      Graphs with matplotlib</p>
+    </div>
+    <div class="skill-row">
+      <img class="pencil-holder-img" src="images/pencil-holder.svg" alt="pencil holder image">
+      <h3>Education</h3>
+      <p>BS, physics; BA, math (Houghton College, Houghton, NY)
+        <br />MS, physics (University of Illinois at Urbana-Champaign)
+      <br />JD (University of Michigan Law School)
+      <br />MA, History of Christianity (Wheaton College, Wheaton, IL)</p>
+    </div>
+  </div>
+  <!-- COntact/Links -->
+  <div class="contact-me" id=findme>
+    <hr />
+    <h2>Where to Find Me</h2>
+    <h3>Github</h3>
+    <p>
+      Find all the public code for my various projects <a href="https://github.com/lauramoon">here</a>.
+      Feel free to fork, identify issues, or submit a pull request.
+    </p>
+    <h3>LinkedIn</h3>
+    <p>
+      My LinkedIn <a href="https://www.linkedin.com/in/laura-moon/">profile</a>. Yes, I am looking for work.
+    </p>
+    <h3>Contact Me</h3>
+    <p>To contact me directly, fill out this
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSelBJWISBhbu09SxMxdeByUuIbL6e2JmED36c1MAuKP3D1LqQ/viewform?usp=sf_link">form</a>.
+    </p>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/laura-moon/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/lauramoon">GitHub</a>
+    <a class="footer-link" href="">Website</a>
+    <p class="copyright">Copyright 2020 Laura Moon.</p>
+    <p>
+      Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script>
+    $('.navbar-nav>li>a').on('click', function() {
+      $('.navbar-collapse').collapse('hide');
+    });
+  </script>
+  <script src="animation.js" charset="utf-8"></script>
+</body>
+
+</html>

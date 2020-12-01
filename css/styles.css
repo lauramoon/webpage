@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f1f1e8;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5em;
+  color: #bfdcae;
+}
+
+h2 {
+  font-family: 'Prompt', sans-serif;
+  font-size: 2.5rem;
+  color: #206A5D;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.6em;
+  font-family: 'Prompt', sans-serif;
+  color: #81b214;
+}
+
+h4 {
+  color: #bfdcae;
+}
+
+li {
+  color: #206A5D;
+}
+
+a {
+  color: #74a010;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f1f1e8;
+}
+
+p {
+  line-height: 2;
+  color: #206A5D;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  border: 0;
+  border-top: 7px dotted #81b214;
+  width: 10rem;
+}
+
+.nav-link {
+  color: #f1f1e8;
+}
+
+.navbar {
+  background-color: #206A5D;
+}
+
+.navbar-toggler-icon {
+  color: #f1f1e8;
+  margin-right: 20px;
+}
+
+.top-container {
+  margin: 0;
+  background-color: #206A5D;
+  padding: 80px 40px 20px;
+
+}
+
+.container {
+  min-height: 153px;
+  padding: 0;
+}
+
+.btn-primary {
+  background-color: #206A5D;
+  color: #f1f1e8;
+  border-color: #bfdcae;
+}
+
+.btn-primary:hover {
+  background-color: #144C3D;
+  color: #f1f1e8;
+  border-color: #bfdcae;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem #81b214;
+}
+
+.btn-primary.disabled {
+    color: #f1f1e8;
+    background-color: #206A5D;
+    border-color: #bfdcae;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active {
+    color: #f1f1e8;
+    background-color: #144C3D;
+    border-color: #bfdcae;
+}
+
+.btn-primary:not(:disabled):not(.disable):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus {
+    box-shadow: 0 0 0 .2rem #81b214;
+}
+
+.bottom-container {
+  background-color: #bfdcae;
+  padding: 50px 0 0 0;
+}
+
+.projects {
+  padding: 0 50px 0;
+}
+
+.project-img{
+  height: 150px;
+  width: 150px;
+}
+
+.card {
+  min-height: 400px;
+  max-width: 400px;
+}
+
+.card-header h3 {
+  color: #206A5D;
+}
+.card-header {
+  background-color: #81b214;
+}
+
+.card-body {
+  background-color: #bfdcae;
+  padding-bottom: 0;
+}
+
+.card-footer{
+  background-color: #bfdcae;
+  border-top: 0;
+}
+
+.skill-row {
+  width: 60%;
+  max-width: 700px;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.coding-img, .flask-img {
+  float: left;
+  width: 7rem;
+  margin-right: 30px;
+}
+
+.browser-img, .pencil-holder-img {
+  float: right;
+  width: 7rem;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 60%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.copyright {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #206A5D;
+}
+
+.footer-link {
+  margin: 50px;
+}
