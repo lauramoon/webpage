@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Relaxing Animation</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body class="animation-body">
+    <div class="bare-animation">
+      <canvas id="canvas"></canvas>
+    </div>
+  </body>
+
+  <!-- Set parameters for animation -->
+  <script type="text/javascript">
+    // canvas settings
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    const numCanvas = 1;
+    const ctx = document.getElementById("canvas").getContext('2d');
+    ctx.canvas.width = width;
+    ctx.canvas.height = height;
+    const contextArray = [ctx];
+    const transform = [[1, 1]];
+
+    // Shape settings
+    // Maximum number of shapes at one time
+    const maxShapes = 10;
+    // Location on canvas to add shape
+    const xStart = 0;
+    const yStart = 0;
+    // How many pixels to move each update
+    const speed = 1;
+    // milliseconds between updates
+    const delay = 10;
+    // initial size of shape in pixels
+    const initSize = height/10;
+    // maximum size of shape in pixels
+    const maxSize = height/3;
+    // minimum size of shape in pixels
+    const minSize = height/12;
+    // how many pixels to grow or shrink each size change
+    const growth = height/20;
+    // how many updates to stay at shape
+    const tStatic = 200;
+    // how many updates to transform to next shape
+    const tMorph = 400;
+  </script>
+  <script src="animation.js" charset="utf-8"></script>
+</html>

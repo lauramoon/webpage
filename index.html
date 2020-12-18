@@ -154,15 +154,15 @@
           <div class="card-body">
             <img class='project-img' src="images/animation.PNG" />
             <ul class="list-unstyled mt-3">
-              <li>Javascript line animation</li>
+              <li>Javascript canvas animation</li>
               <li>See heading of this webpage</li>
-              <li>Separate page under construction</li>
-              <li>(Future Github link)</li>
+              <li>Customizable</li>
+              <li><a href="https://github.com/lauramoon/webpage">See code</a></li>
             </ul>
           </div>
           <div class="card-footer">
-            <a role="button" class="btn btn-lg btn-block btn-primary disabled"
-            href="">Full page Coming Soon</a>
+            <a role="button" class="btn btn-lg btn-block btn-primary"
+            href="https://lauramoon.github.io/webpage/animation2.html">Full Page</a>
           </div>
         </div>
       </div>
@@ -255,6 +255,39 @@
     $('.navbar-nav>li>a').on('click', function() {
       $('.navbar-collapse').collapse('hide');
     });
+    // canvas settings for animation
+    const width = 400;
+    const height = 153;
+    const numCanvas = 2;
+    const ctxl = document.getElementById("left-canvas").getContext('2d');
+    ctxl.canvas.width = width;
+    const ctxr = document.getElementById("right-canvas").getContext('2d');
+    ctxr.canvas.width = width;
+    const contextArray = [ctxl, ctxr];
+    const transform = [[1, 1], [-1, 1]];
+
+    // Shape settings
+    // Maximum number of shapes at one time
+    const maxShapes = 10;
+    // Location on canvas to add shape
+    const xStart = 0;
+    const yStart = 0;
+    // How many pixels to move each update
+    const speed = 1;
+    // milliseconds between updates
+    const delay = 20;
+    // initial size of shape in pixels
+    const initSize = 30;
+    // maximum size of shape in pixels
+    const maxSize = 60;
+    // minimum size of shape in pixels
+    const minSize = 16;
+    // how many pixels to grow or shrink each size change
+    const growth = 5;
+    // how many updates to stay at shape
+    const tStatic = 200;
+    // how many updates to transform to next shape
+    const tMorph = 200;
   </script>
   <script src="animation.js" charset="utf-8"></script>
 </body>

@@ -184,3 +184,17 @@ hr {
 .footer-link {
   margin: 50px;
 }
+
+.bare-animation {
+  background-color: #206A5D;
+}
+
+.animation-body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#canvas1, #canvas3 {
+  float: left;
+}
